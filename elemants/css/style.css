@@ -171,10 +171,38 @@ body {
     filter:none;
     opacity:1;  
 }
- 
 .about-btn{
-    background:#000;
+    letter-spacing: 1px; 
+    color: #fff;
+    border-radius: 25px;
+    padding: 8px 30px 9px 30px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 300;
+    display: inline-block;
+    margin-top:30px; 
+    border: 2px solid #e03a3c;
+    font-family:'Roboto', sans-serif ;
+}
+.about-btn:hover{
+     background-color:#e03a3c;
 }
 .voluptatem-left{
     padding: 30px 30px 30px 0;
+}
+.containt-colunm-2-1 .colunm-1 i{
+    font-size:40px;
+    color:#e03a3c;
+    margin-bottom:10px;
+}
+.containt-colunm-2-1 .colunm-1 h4{
+    font-size:20px;
+     color:#fff;
+     font-weight: 700;
+     margin-bottom:10px;
+}
+.containt-colunm-2-1 .colunm-1 p{
+    font-size:15px;
+     color: #848484;
 }
