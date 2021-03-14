@@ -180,8 +180,7 @@ body {
     transition: 0.3s;
     font-size: 16px;
     font-weight: 300;
-    display: inline-block;
-    margin-top:30px; 
+    display: inline-block; 
     border: 2px solid #e03a3c;
     font-family:'Roboto', sans-serif ;
 }
@@ -190,6 +189,10 @@ body {
 }
 .voluptatem-left{
     padding: 30px 30px 30px 0;
+}
+.voluptatem-left h2{
+     font-size: 34px;
+     font-weight:700;   
 }
 .containt-colunm-2-1 .colunm-1 i{
     font-size:40px;
@@ -205,4 +208,19 @@ body {
 .containt-colunm-2-1 .colunm-1 p{
     font-size:15px;
      color: #848484;
+}
+.voluptatem {
+    position:relative;
+    padding: 120px 0 120px 0;
+}
+.voluptatem::before{
+    content:'';
+    background:#1b1b1b;
+    position: absolute;
+    top:60px;
+    bottom:60px;
+    left:0;
+    right:0;
+    transform:skewY(-3deg);
+    z-index: -1;
 }
