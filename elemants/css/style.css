@@ -1,4 +1,6 @@
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
 ul{
     list-style: none;
 } 
@@ -31,6 +33,7 @@ a:hover{
     top:70px; 
     transition:.3s;
     visibility: hidden;
+    background:white;
     
 } 
 .dropdown-hover:hover .dropdown-menu-1{
@@ -40,15 +43,13 @@ a:hover{
 
 .dropdown-hover2{
     position:relative;
-}
-
-
+} 
 .dropdown-menu-2{
     position: absolute;
     left:50px; 
     transition:.3s;
     visibility: hidden;
-    
+    background:white;
 }
 .dropdown-hover2:hover .dropdown-menu-2{
     left: 70px;
@@ -74,4 +75,99 @@ a:hover{
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color:red;
+}
+.intro{
+    background:url(../images/header-bg.jpg);
+    width: 100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: -1;
+}
+.intro:before{
+    content:'';
+    position: absolute;
+    background:rgba(0, 0, 0, 0.6);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+}
+.intro-contant h1{
+    font-size: 48px;
+    font-weight:700; 
+    color:#fff;
+    margin:0;
+    
+}
+.intro-contant h4{
+    font-size: 24px;
+    font-weight:700px; 
+    color:#fff;
+}
+.get-started-btn2 {
+    letter-spacing: 1px; 
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px 30px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    margin-top:30px;
+    background: #e03a3c;
+    border: 2px solid #e03a3c;
+    font-family:'Roboto', sans-serif ;
+}
+.get-started-btn2:hover{
+    background:transparent;
+    border: 2px solid #fff; 
+}
+/*slider*/
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%; 
+    
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    margin:0;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+    /*slider end*/
+.swiper-slide img{
+    filter: grayscale(100);
+    opacity: 0.5;
+    transition:.3s;
+
+ }
+ .swiper-slide img:hover{
+    filter:none;
+    opacity:1;  
 }
