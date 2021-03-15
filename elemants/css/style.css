@@ -173,13 +173,13 @@ body {
     align-items: center;
   }
     /*slider end*/
-.swiper-slide img{
+.slider .swiper-container .swiper-wrapper .swiper-slide img{
     filter: grayscale(100);
     opacity: 0.5;
     transition:.3s;
 
  }
- .swiper-slide img:hover{
+ .slider .swiper-container .swiper-wrapper .swiper-slide img:hover{
     filter:none;
     opacity:1;  
 }
@@ -465,4 +465,44 @@ body {
 .grid-by-me{
     display: flex;
 
+}
+.testimonial-items {
+    
+    min-height:200px;
+    padding:30px;   
+    margin:30px 15px;
+    background: #fff;
+    border-radius:15px;
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+}
+.testimonial-items .heading-area-testi {
+    width:100%;
+}
+.testimonial-items .heading-area-testi img {
+    width: 90px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.testimonial-items .heading-area-testi .testi-heading-title h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 25px 0 5px 0;
+    color: #111;
+}
+.testimonial-items .heading-area-testi .testi-heading-title h4{
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+}
+.testimonial-items .pragraph-tesi p{
+     font-style: italic;
+     padding: 10px;
+}
+.testimonial-items .pragraph-tesi p i{
+   margin:10px 10px 10px 0;
+   font-size:18px;
+   color:#e03a3c;
+   opacity: 0.5;
 }
