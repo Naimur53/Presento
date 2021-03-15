@@ -506,3 +506,48 @@ body {
    color:#e03a3c;
    opacity: 0.5;
 }
+.card{
+    background:#2b2b2b;
+    padding:20px;
+    border-radius:8px;
+}
+.card-body h1{
+    padding:15px;
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight:600;
+}
+.card-body h5{ 
+    font-size:42px; 
+    font-weight:600;
+    margin-bottom:20px;
+    font-weight: 400;
+}
+.card-body h5 span{ 
+    font-size:16px; 
+    font-weight: 300;
+}
+.card-body h2  { 
+    font-size:14px; 
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+.not-available{
+    text-decoration:line-through;
+    color:rgba(255, 255, 255, 0.5);
+}
+.btn-card{
+    background: transparent;
+    border:2px solid rgba(255, 255, 255, 0.5);
+    padding: 10px 40px 12px 40px;
+    border-radius: 4px;
+    color:white;
+}
+.card-body .btn-card:hover{
+    color:white;
+    border:2px solid rgba(255, 255, 255, 1);
+
+} 
+.card-bg{
+    background:#e03a3c;
+}
