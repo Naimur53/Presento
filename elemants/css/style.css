@@ -551,3 +551,26 @@ body {
 .card-bg{
     background:#e03a3c;
 }
+.freq-com  a{
+    border-bottom:1px solid #eee;
+    outline:none;   
+    display: flex;
+    justify-content: space-between;
+}
+.freq-com  a:hover{
+    color:#e03a3c;
+}
+.freq-com  a i{
+     transition:.3s;
+}
+.freq-com a:hover i{
+    color:#e03a3c;
+}
+.freq-com a:focus{ 
+    outline:none;   
+    box-shadow: none;
+    border:none;
+}
+.freq-pra{
+    border-bottom:1px solid #eee;
+}
