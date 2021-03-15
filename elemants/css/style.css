@@ -574,3 +574,47 @@ body {
 .freq-pra{
     border-bottom:1px solid #eee;
 }
+.cards{
+    background: #fff;
+    border-radius:5px;
+    position:relative;
+} 
+.cards .card-body h5{
+    font-size: 18px;
+    color:#111111;
+    font-weight:700;
+    margin-bottom: 5px;
+}
+.cards .card-body p{
+    font-size: 13px;
+    color:#aaaaaa;
+    font-weight:400;
+    margin-bottom: 5px;
+}
+.social-img ul li {
+     margin-right: 5px;
+    
+} 
+.social-img ul{
+    position: absolute; 
+    left: 30px;
+    bottom: 110px;
+    transition: .3s;
+    opacity: 0;
+}
+.social-img ul li a{ 
+    color:#fff;
+    width:36px;
+    height: 36px;
+    background: #e03a3c;
+    border-radius: 50px;
+    display: block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; 
+}
+.cards:hover .social-img ul{ 
+    bottom: 100px;
+    opacity: 1;
+}
