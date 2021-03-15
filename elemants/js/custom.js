@@ -23,7 +23,7 @@
 
     //filtering
     // init Isotope
-var $grid = $('.grid').isotope({
+var $grid = $('.grids').isotope({
   // options
 });
 // filter items on button click
@@ -32,11 +32,4 @@ $('.filter-button-group').on( 'click', 'button', function() {
   $grid.isotope({ filter: filterValue });
 });
 //masonry
-var $grid = $('.grid').isotope({
-  itemSelector: '.element-item',
-  percentPosition: true,
-  masonry: {
-      // use outer width of grid-sizer for columnWidth
-      columnWidth: '.grid-sizer'
-  }
-})
+ 

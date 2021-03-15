@@ -384,7 +384,8 @@ body {
     color:white;
 }
 .img-link  {
-    overflow: hidden;  
+    overflow: hidden;
+
 }
 .img-link h2{
     font-size: 20px; 
@@ -413,16 +414,17 @@ body {
     position:relative;
     transition: .3s;
     overflow: hidden;
+    padding:0;
+    margin:0 10px 10px 10px;
 }
 .element-item img{
     transition:.3s; 
     width: 100%;
-    overflow: hidden;
+    
+    margin:0;
 }
 .element-item:hover img{
-    transform:scale(1.2);
-    overflow: hidden;
-   
+    transform:scale(1.2);  
 }
 .element-item::before{
     content:'';
@@ -446,22 +448,21 @@ body {
     right:0;
     bottom:0;
     z-index:3;
-    opacity: 1;
+    opacity: 0;
     transition: .3s;
     display: flex;
     flex-direction:column;
     justify-content:flex-end;
     align-items: flex-start; 
 }
-.element-item {
-    float: left;
-    width:30.33333%;
-    height: auto;
-    position:relative;
+.element-item:hover .img-link {
+    opacity: 1;
+}
+.element-item{
+    width:30%;
     overflow: hidden;
-    
 }
-.grid-sizer{
-    width:16.6666%;
+.grid-by-me{
+    display: flex;
+
 }
- 
