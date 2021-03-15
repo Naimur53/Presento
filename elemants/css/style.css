@@ -383,6 +383,9 @@ body {
     background:#e03a3c;
     color:white;
 }
+.img-link  {
+    overflow: hidden;  
+}
 .img-link h2{
     font-size: 20px; 
     color:#fff;   
@@ -395,22 +398,31 @@ body {
     margin: 0;
     font-style: italic;
 }
-.img-link i{
+.img-link div i{
     font-size: 20px;
     opacity: 0.7;
+    color:white;
 }
-.img-link i:hover{
+.img-link div i:hover{
     font-size: 20px;
     opacity: 1;
     color:white;
 }
-.grid{
-    display:flex;
-    justify-content: space-evenly;
-   
-}
+
 .element-item{
     position:relative;
+    transition: .3s;
+    overflow: hidden;
+}
+.element-item img{
+    transition:.3s; 
+    width: 100%;
+    overflow: hidden;
+}
+.element-item:hover img{
+    transform:scale(1.2);
+    overflow: hidden;
+   
 }
 .element-item::before{
     content:'';
@@ -434,6 +446,22 @@ body {
     right:0;
     bottom:0;
     z-index:3;
-    opacity: 0;
+    opacity: 1;
     transition: .3s;
+    display: flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items: flex-start; 
 }
+.element-item {
+    float: left;
+    width:30.33333%;
+    height: auto;
+    position:relative;
+    overflow: hidden;
+    
+}
+.grid-sizer{
+    width:16.6666%;
+}
+ 
