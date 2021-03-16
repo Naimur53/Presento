@@ -51,3 +51,6 @@ var swiper = new Swiper('.swiper-containers', {
     prevEl: '.swiper-button-prev',
   },
 });
+// asos js 
+AOS.init();
+ 

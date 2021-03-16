@@ -10,6 +10,7 @@
     <!-- Our main  CSS -->
     <link rel="stylesheet" href="elemants/css/swiper-bundel-min.css">
     <link rel="stylesheet" href="elemants/css/all.css">
+    <link rel="stylesheet" href="elemants/css/aos.css">
     <link rel="stylesheet" href="elemants/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -19,7 +20,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-4">
         <div class="container">
-          <a class="navbar-brand" href="#">Presento</a>
+          <a class="navbar-brand" href="#">Presento<span class="red">.</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -27,21 +28,18 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#volu">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#Service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Service</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link" href="#Team">Team</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Blog</a>
@@ -62,7 +60,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contuct">Contact</a>
               </li>
             </ul> 
           </div>
@@ -74,7 +72,7 @@
       <div class="intro  d-flex align-items-center">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 intro-contant">
+            <div class="col-md-6 intro-contant "data-aos="zoom-out" data-aos-delay="300">
               <h1>Bettter digital experience with Presento</h1>
               <h4>We are team of talented designers making websites with Bootstrap
               </h4>
@@ -85,7 +83,7 @@
       </div> 
     </section>
 <section>
-  <div class="slider container py-5">
+  <div class="slider container py-5 "data-aos="zoom-in">
     
   <!-- Swiper -->
   <div class="swiper-container">
@@ -110,11 +108,11 @@
   </div>
 </section>
 <section>
-  <div class="voluptatem ">
-    <div class="container ">
+  <div class="voluptatem" id="volu">
+    <div class="container">
       <div class="row">
         <div class="d-flex ">
-          <div class="col-md-5 voluptatem-left">
+          <div class="col-md-5 voluptatem-left" data-aos="fade-up"data-aos-delay="300">
             <h2 class="text-white mb-4">
               Voluptatem dignissimos provident quasi
             </h2>
@@ -124,25 +122,25 @@
             <a href="#" class="about-btn">ABOUT US<i class="fas fa-chevron-right ms-1"></i> </a> 
           </div>
           <div class="col-md-7 d-flex">
-            <div class="containt-colunm-2-1  mt-5">
-                <div class="colunm-1">
+            <div class="containt-colunm-2-1  mt-5" >
+                <div class="colunm-1"data-aos="fade-up"data-aos-delay="400">
                   <i class="fas fa-file-alt"></i>
                   <h4>Corporis voluptates sit</h4>
                   <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
                 </div>
-                <div class="colunm-1">
+                <div class="colunm-1"data-aos="fade-up"data-aos-delay="500">
                   <i class="fas fa-cube"></i>
                   <h4>Labore consequatur</h4>
                   <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
                 </div>  
             </div>
-            <div class="containt-colunm-2-1  ps-4 mt-5 ">
-              <div class="colunm-1">
+            <div class="containt-colunm-2-1  ps-4 mt-5 " >
+              <div class="colunm-1"data-aos="fade-up"data-aos-delay="500">
                 <i class="far fa-images"></i> 
                 <h4>Ullamco laboris nisi</h4>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
               </div>  
-              <div class="colunm-1">
+              <div class="colunm-1"data-aos="fade-up"data-aos-delay="600">
                 <i class="fas fa-shield-alt"></i>
                 <h4>Beatae veritatis</h4>
                 <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
@@ -157,32 +155,32 @@
 <section>
   <div class="counts py-m">
     <div class="container">
-      <div class="row">
+      <div class="row" data-aos="fade-up"data-aos-delay="350">
         <div class="col-md-3">
           <div class="count-box text-center">
             <i class="far fa-smile"></i>
-            <span class="purecounter"data-purecounter-duration="1" data-purecounter-end="232">232</span>
+            <span class="purecounter"data-purecounter-duration="1" data-purecounter-duration="500"data-purecounter-end="232">232</span>
             <p>Happy Clients</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="count-box text-center">
             <i class="far fa-file-alt"></i>
-            <span class="purecounter"data-purecounter-duration="1" data-purecounter-end="521">521</span>
+            <span class="purecounter"data-purecounter-duration="1"data-purecounter-duration="500" data-purecounter-end="521">521</span>
             <p>Projects</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="count-box text-center">
             <i class="fas fa-headphones-alt"></i>
-            <span class="purecounter"data-purecounter-duration="1" data-purecounter-end="1463">1463</span>
+            <span class="purecounter"data-purecounter-duration="1"data-purecounter-duration="500" data-purecounter-end="1463">1463</span>
             <p>Hours Of Support</p>
           </div>
         </div>
         <div class="col-md-3">
           <div class="count-box text-center">
             <i class="fas fa-user-friends"></i>
-            <span class="purecounter"data-purecounter-end="15">15</span>
+            <span class="purecounter"data-purecounter-end="15"data-purecounter-duration="500">15</span>
             <p>Hard Workers</p>
           </div>
         </div>
@@ -193,7 +191,7 @@
 <section>
   <div class="tap py-m">
     <div class="container">
-      <ul class="nav nav-pills mb-4 row" id="pills-tab" role="tablist">
+      <ul class="nav nav-pills mb-4 row"data-aos="fade-up"data-aos-delay="300" id="pills-tab" role="tablist">
         <li class="nav-item col-md-3 " role="presentation">
           <button class="nav-link active d-flex text-center py-4" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
             <i class="fas fa-broadcast-tower me-3"></i> 
@@ -218,7 +216,7 @@
           </button>
         </li>
       </ul>
-      <div class="tab-content" id="pills-tabContent">
+      <div class="tab-content"data-aos="fade-up"data-aos-delay="400" id="pills-tabContent">
         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
           <div class="row">
             <div class="col-md-6 tab-left-content">
@@ -312,16 +310,16 @@
   </div>
 </section>
 <section>
-  <div class="service py-m2">
+  <div class="service py-m2"id="Service">
     <div class="container">
-      <div class="title text-center text-white">
+      <div class="title text-center text-white"data-aos="fade-up"data-aos-delay="300">
         <h1>
           SERVICES
           <hr>
         </h1> 
         <p >Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
-      <div class="row">
+      <div class="row"data-aos="fade-up"data-aos-delay="400">
         <div class="col-md-6 mb-4">
           <div class="icon-box d-flex">
             <div class="icon-div me-4">
@@ -344,7 +342,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4"data-aos="fade-up"data-aos-delay="300">
           <div class="icon-box d-flex">
             <div class="icon-div me-4">
               <i class="fas fa-chart-bar"></i>
@@ -355,7 +353,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4"data-aos="fade-up"data-aos-delay="300">
           <div class="icon-box d-flex">
             <div class="icon-div me-4">
               <i class="fas fa-binoculars"></i>
@@ -366,7 +364,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4"data-aos="fade-up"data-aos-delay="300">
           <div class="icon-box d-flex">
             <div class="icon-div me-4">
               <i class="fas fa-sun"></i>
@@ -377,7 +375,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 mb-4">
+        <div class="col-md-6 mb-4"data-aos="fade-up"data-aos-delay="300">
           <div class="icon-box d-flex">
             <div class="icon-div me-4">
               <i class="far fa-calendar-alt"></i>
@@ -393,22 +391,22 @@
   </div>
 </section>
 <section>
-  <div class="portfolio py-5 ">
+  <div class="portfolio py-5"id="portfolio" >
     <div class="container">
-      <div class="title text-center ">
+      <div class="title text-center"data-aos="fade-up"data-aos-delay="300">
         <h1> 
             PORTFOLIO 
           <hr>
         </h1> 
         <p >Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
-      <div class="button-group filter-button-group text-center mb-4">
+      <div class="button-group filter-button-group text-center  py-5"data-aos="fade-up"data-aos-delay="300">
         <button data-filter="*"class="filter-active">ALL</button>
         <button data-filter=".metal"class="filter-active" >APP</button>
         <button data-filter=".transition"class="filter-active">CARD</button>
         <button data-filter=".alkali, .alkaline-earth"class="filter-active">WEB</button> 
       </div>
-      <div class="grid-by-me grids row"> 
+      <div class="grid-by-me grids row mt-5"data-aos="fade-up"data-aos-delay="400"> 
         <div class="element-item transition metal col-md-4">
           <img src="elemants/images/portfolio-1.jpg"class="img-fluid" alt="">
           <div class="img-link ms-3 mb-3">
@@ -506,14 +504,14 @@
 <section>
   <div class="testimonials py-m2">
     <div class="container overflow-hidden">
-      <div class="title text-center ">
+      <div class="title text-center " data-aos="fade-up"data-aos-delay="300">
         <h1> 
           TESTIMONIALS 
           <hr>
         </h1> 
         <p >Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
-      <div class="swiper-containers">
+      <div class="swiper-containers"data-aos="fade-up"data-aos-delay="400">
         <div class="swiper-wrapper mb-5">
           <div class="swiper-slide">
             <div class="testimonial-items">
@@ -613,15 +611,15 @@
 <section>
   <div class="service py-m2">
     <div class="container"> 
-      <div class="title text-center text-white">
+      <div class="title text-center text-white py-5"data-aos="fade-up"data-aos-delay="400">
         <h1>
           SERVICES
           <hr>
         </h1> 
         <p >Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
-      <div class="row">
-        <div class="col-md-4">
+      <div class="row mt-4">
+        <div class="col-md-4"data-aos="fade-up"data-aos-delay="400">
           <div class="card-wrapper text-white"> 
             <div class="card text-center w-100 ">
               <div class="card-body">
@@ -637,7 +635,7 @@
             </div>
          </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4"data-aos="fade-up"data-aos-delay="500">
           <div class="card-wrapper text-white"> 
             <div class="card text-center w-100 card-bg">
               <div class="card-body">
@@ -653,7 +651,7 @@
             </div>
          </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4"data-aos="fade-up"data-aos-delay="600">
           <div class="card-wrapper text-white"> 
             <div class="card text-center w-100 ">
               <div class="card-body">
@@ -677,15 +675,14 @@
 <section>
   <div class="freq py-5">
     <div class="container">
-      <div class="title text-center ">
+      <div class="title text-center"data-aos="fade-up"data-aos-delay="300">
         <h1> 
           TESTIMONIALS 
           <hr>
         </h1> 
         <p >Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
-      <div class="freq-com">
-        
+      <div class="freq-com"data-aos="fade-up"data-aos-delay="400"> 
           <a class="btn text-start pb-3  w-100" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
             Non consectetur a erat nam at lectus urna duis?<i class="fas fa-chevron-down"></i>
           </a> 
@@ -739,9 +736,9 @@
   </div> 
 </section>
 <section>
-  <div class="service py-m2">
+  <div class="service py-m2"id="Team">
     <div class="container"> 
-      <div class="title text-center text-white">
+      <div class="title text-center text-white"data-aos="fade-up"data-aos-delay="300">
         <h1>
           TEAM
           <hr>
@@ -749,7 +746,7 @@
         <p >Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
       </div>
       <div class="row">
-         <div class="col-md-3">
+         <div class="col-md-3"data-aos="fade-up"data-aos-delay="400">
           <div class="cards">
             <img src="elemants/images/team-1.jpg" class="card-img-top" alt="...">
             <div class="social-img">
@@ -766,7 +763,7 @@
             </div>
           </div>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3"data-aos="fade-up"data-aos-delay="500">
           <div class="cards">
             <img src="elemants/images/team-2.jpg" class="card-img-top" alt="...">
             <div class="social-img">
@@ -783,7 +780,7 @@
             </div>
           </div>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3"data-aos="fade-up"data-aos-delay="600">
           <div class="cards">
             <img src="elemants/images/team-3.jpg" class="card-img-top" alt="...">
             <div class="social-img">
@@ -800,7 +797,7 @@
             </div>
           </div>
          </div>
-         <div class="col-md-3">
+         <div class="col-md-3"data-aos="fade-up"data-aos-delay="700">
           <div class="cards">
             <img src="elemants/images/team-4.jpg" class="card-img-top" alt="...">
             <div class="social-img">
@@ -822,16 +819,16 @@
     </div>
   </div>
 </section> 
-<section class="contuct py-5">
+<section class="contuct py-5" id="contuct">
   <div class="container">
-    <div class="title text-center ">
+    <div class="title text-center"data-aos="fade-up"data-aos-delay="300">
       <h1> 
         CONTACT
         <hr>
       </h1> 
       <p >Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
     </div>
-    <div class="row">
+    <div class="row"data-aos="fade-up"data-aos-delay="700">
       <div class="col-md-6">
         <div class="location-box my-4">
           <i class="fas fa-map-marker-alt"></i>
@@ -965,23 +962,17 @@
   </div>
 </footer>
 
-
-
-
-
-
-
-
-
+  
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="elemants/js/jquery-3.5.1.min.js"></script>
     <!-- Option 1: Bootstrap Bundle with Popper --> 
     <script src="elemants/js/bootstrap.min.js"></script>
+    <script src="elemants/js/aos.js"></script>
     <script src="elemants/js/swiper-bundle.min.js"></script>
     <script src="elemants/js/purecounter.js"></script>
     <script src="elemants/js/isotope.pkgd.min.js"></script>
-
+    
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

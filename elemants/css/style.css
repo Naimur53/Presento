@@ -13,6 +13,14 @@ a{
 a:hover{
     color:white;
 }
+.red{
+    color:red;
+}
+.navbar-brand{
+    color:#111111;
+    font-size: 30px;
+    font-weight: 600;
+}
 .navbar{
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
 }
@@ -764,4 +772,11 @@ footer .left-foot p span {
 }
 .right-foot ul li a:hover{
     background-color: #e03a3c;
+}
+
+
+
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 1.4s;
 }
