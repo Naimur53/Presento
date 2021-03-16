@@ -775,8 +775,46 @@ footer .left-foot p span {
 }
 
 
-
+/*js adnimation*/
 
 [data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
     transition-duration: 1.4s;
 }
+
+/*tap to top*/
+#button {
+    display: inline-block;
+    background-color: #e03a3c;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #button i { 
+    font-size: 18px;
+    line-height: 0;
+    color: #fff;
+    
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
