@@ -156,10 +156,8 @@ body {
 
 .swiper-container {
     width: 100%;
-    height: 100%; 
-    
-  }
-
+    height: 100%;  
+} 
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -282,8 +280,7 @@ body {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color:#e03a3c;
-    border-color:#e03a3c;
-     
+    border-color:#e03a3c; 
 }
 
 .nav-item button i{
@@ -361,8 +358,7 @@ body {
     color:#e03a3c;
 }
 .icon-content h2{
-    font-size: 18px;
-    
+    font-size: 18px; 
 }
 .service{
     position:relative;
@@ -471,11 +467,9 @@ body {
     overflow: hidden;
 }
 .grid-by-me{
-    display: flex;
-
+    display: flex; 
 }
-.testimonial-items {
-    
+.testimonial-items { 
     min-height:200px;
     padding:30px;   
     margin:30px 15px;
@@ -772,15 +766,12 @@ footer .left-foot p span {
 }
 .right-foot ul li a:hover{
     background-color: #e03a3c;
-}
-
-
+}  
 /*js adnimation*/
 
 [data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
     transition-duration: 1.4s;
-}
-
+} 
 /*tap to top*/
 #button {
     display: inline-block;
