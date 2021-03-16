@@ -53,4 +53,18 @@ var swiper = new Swiper('.swiper-containers', {
 });
 // asos js 
 AOS.init();
- 
+ //tap to top
+var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
