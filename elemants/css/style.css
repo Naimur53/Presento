@@ -11,8 +11,26 @@ a{
     text-decoration:none;
 }
 a:hover{
-    color:white;
+    color:#e03a3c;
 }
+/*scroll nav*/
+.scrolled-nav {
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+  #global-nav {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    height: 150px;
+    width: 100%;
+    background: #324c5f;
+    color: #fff;
+    line-height: 150px;
+      -webkit-transition: height .5s, line-height .5s; /* Safari */
+      transition: height .5s, line-height .5s;
+  }
+  
 .red{
     color:red;
 }
