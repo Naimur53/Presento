@@ -83,13 +83,15 @@ a:hover{
 } 
 .dropdown-menu-2{
     position: absolute;
-    left:50px; 
+    left:120px; 
+    top:-5px;
     transition:.3s;
     visibility: hidden;
     background:white;
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
 }
 .dropdown-hover2:hover .dropdown-menu-2{
-    left: 175px;
+    left: 170px;
     visibility: visible; 
 }
 .get-started-btn {
