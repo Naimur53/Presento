@@ -684,6 +684,7 @@ form .fr-btn{
     transition: 0.4s;
     border-radius: 4px;
     margin-left: 35%;
+    font-size: 18px;
 }
 form .fr-btn:hover{
     background: #e35052;
