@@ -15,18 +15,15 @@ a:hover{
 }
 /*scroll nav*/
 .scrolled-nav {
-    height: 60px !important;
-    line-height: 60px !important;
-  }
+    height: 80px !important; 
+}
   #global-nav {
     position: fixed;
     top: 0;
     z-index: 9999;
-    height: 150px;
-    width: 100%;
-    background: #324c5f;
-    color: #fff;
-    line-height: 150px;
+    height: 100px;
+    width: 100%; 
+    color: #fff; 
       -webkit-transition: height .5s, line-height .5s; /* Safari */
       transition: height .5s, line-height .5s;
   }
@@ -73,6 +70,7 @@ a:hover{
     transition:.3s;
     visibility: hidden;
     background:white;
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
     
 } 
 .dropdown-hover:hover .dropdown-menu-1{
@@ -91,7 +89,7 @@ a:hover{
     background:white;
 }
 .dropdown-hover2:hover .dropdown-menu-2{
-    left: 70px;
+    left: 175px;
     visibility: visible; 
 }
 .get-started-btn {
@@ -105,6 +103,7 @@ a:hover{
     font-size: 14px;
     font-weight: bold;
     display: inline-block;
+    overflow: hidden;
 }
 .get-started-btn:hover{
     background:#000; 
