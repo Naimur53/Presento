@@ -72,7 +72,18 @@ px      68    160    252    344    436    */
    .res-main-containt-vulo{
 	   flex-direction: column;
    }
-  
+   .nav-item button {
+	 padding: 15px;
+	 width: 55px;
+	 display: inline-block;
+ }
+   .nav-item button i{
+	 font-size: 24px; 
+	 margin: 0!important;
+  }
+  .nav-item button h4{
+	display: none!important;
+  }
 
 }
 
