@@ -47,11 +47,34 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+	.get-started-btn{
+		display: none;
+	}
 	
- 
 
 }
+@media only screen and (min-width: 180px) and (max-width: 479px) {
+	.get-started-btn{
+		display: none;
+	} 
+	.vulo-res{
+		flex-direction:column; 
+	}
+   .voluptatem-left, .containt-colunm-2-1{
+	   text-align: center;
+	   padding:0!important;
+	   padding:4px!important;
+   }
+   .containt-colunm-2-1{
+	   display: flex;
+	   flex-direction: column;
+   }
+   .res-main-containt-vulo{
+	   flex-direction: column;
+   }
+  
 
+}
 
 /*	Retina media query.
 	Overrides styles for devices with a 
