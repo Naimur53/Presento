@@ -95,6 +95,18 @@ px      68    160    252    344    436    */
 	  display: flex;
 	  flex-direction: column-reverse;
   }
+  .grid-by-me .element-item{
+	  margin:0 0 10px 0!important;
+	  justify-content: space-between;
+	  width: 100%;
+	   
+  }
+   .fr-btn{
+	   font-size: 10px;
+	   white-space: nowrap;
+	   padding: 6px !important;
+	   margin-left: 28	%!important;
+   }
 
 }
 
