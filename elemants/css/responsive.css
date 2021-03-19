@@ -72,6 +72,9 @@ px      68    160    252    344    436    */
    .res-main-containt-vulo{
 	   flex-direction: column;
    }
+   .nav-pills{
+	   margin:0!important;
+   }
    .nav-pills .nav-item{
 	   width: 25%;
 	   height: 25vh;
@@ -87,6 +90,10 @@ px      68    160    252    344    436    */
   }
   .nav-item button h4{
 	display: none!important;
+  }
+  .tab-content .tab-pane .row {
+	  display: flex;
+	  flex-direction: column-reverse;
   }
 
 }
