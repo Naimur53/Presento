@@ -40,11 +40,14 @@ px      68    160    252    344    436    528    620    712    */
 	}
 	.social-img ul { 
 		left: 15%; 
-	}
+	}  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.social-img ul { 
 		left:5px; 
+	}
+	.navbar-expand-lg .navbar-nav .nav-link{
+		padding:0 8px 0 8px!important;
 	}
 }
 
