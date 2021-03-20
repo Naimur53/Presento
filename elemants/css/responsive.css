@@ -78,7 +78,9 @@ cols    1     2      3      4      5
 px      68    160    252    344    436    */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	 
+	.social-img ul { 
+		left: 25%; 
+	}
 }
 @media only screen and (min-width: 180px) and (max-width: 767px) {
 	.get-started-btn{
@@ -134,6 +136,10 @@ px      68    160    252    344    436    */
 	   padding: 6px !important;
 	   margin-left: 28	%!important;
    }
+   .cards{
+	margin-bottom: 15px;
+}
+
   
 }
 
