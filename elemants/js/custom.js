@@ -3,7 +3,8 @@
     var swiper = new Swiper('.swiper-container', {
       slidesPerView: 6,
       spaceBetween: 100,
-      slidesPerGroup: 1,
+      slidesPerGroup: 1, 
+      speed: 400,
       loop: true,
       loopFillGroupWithBlank: true,
       autoplay: {
@@ -17,7 +18,25 @@
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-      },
+      },  
+       breakpoints: {
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 40
+        },
+        480: {
+          slidesPerView: 3,
+          spaceBetween: 60
+        },
+        640: {
+          slidesPerView: 4,
+          spaceBetween: 80
+        },
+        992: {
+          slidesPerView: 6,
+          spaceBetween: 120
+        }
+      }
     });
     
 
@@ -50,6 +69,24 @@ var swiper = new Swiper('.swiper-containers', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+      spaceBetween: 40
+    },
+    480: {
+      slidesPerView: 3,
+      spaceBetween: 60
+    },
+    640: {
+      slidesPerView: 4,
+      spaceBetween: 80
+    },
+    992: {
+      slidesPerView: 6,
+      spaceBetween: 120
+    }
+  }
 });
 // asos js 
 AOS.init();
