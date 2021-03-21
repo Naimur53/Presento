@@ -32,7 +32,7 @@ px      68    160    252    344    436    528    620    712    */
 	  font-size: 24px; 
 	  margin: 0!important;
    }
-   .nav-item button h4{
+   .nav-item button span{
 	 display: none!important;
    } 
 	.cards{
@@ -117,7 +117,7 @@ px      68    160    252    344    436    */
 	 font-size: 24px; 
 	 margin: 0!important;
   }
-  .nav-item button h4{
+  .nav-item button span{
 	display: none!important;
   }
   .tab-content .tab-pane .row {

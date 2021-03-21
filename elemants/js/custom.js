@@ -1,9 +1,7 @@
  
     //sider js end
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 6,
-      spaceBetween: 100,
-      slidesPerGroup: 1, 
+      slidesPerView: 'auto', 
       speed: 400,
       loop: true,
       loopFillGroupWithBlank: true,
@@ -52,9 +50,7 @@ $('.filter-button-group').on( 'click', 'button', function() {
 });
 //2nd slider
 var swiper = new Swiper('.swiper-containers', {
-  slidesPerView: 3,
-  spaceBetween: 20,
-  slidesPerGroup: 1,
+  slidesPerView: 'auto',
   loop: true,
   loopFillGroupWithBlank: true,
   autoplay: {
@@ -68,25 +64,7 @@ var swiper = new Swiper('.swiper-containers', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 2,
-      spaceBetween: 40
-    },
-    480: {
-      slidesPerView: 3,
-      spaceBetween: 60
-    },
-    640: {
-      slidesPerView: 4,
-      spaceBetween: 80
-    },
-    992: {
-      slidesPerView: 6,
-      spaceBetween: 120
-    }
-  }
+  }, 
 });
 // asos js 
 AOS.init();
