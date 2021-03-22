@@ -65,6 +65,24 @@ var swiper = new Swiper('.swiper-containers', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   }, 
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 40
+    },
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 60
+    },
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 80
+    },
+    992: {
+      slidesPerView: 3,
+      spaceBetween: 80
+    }
+  }
 });
 // asos js 
 AOS.init();
