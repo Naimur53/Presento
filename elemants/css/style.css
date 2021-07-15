@@ -17,16 +17,16 @@ a:hover{
 .scrolled-nav {
     height: 80px !important; 
 }
-  #global-nav {
-    position: fixed;
-    top: 0;
-    z-index: 9999;
-    height: 100px;
-    width: 100%; 
-    color: #fff; 
-      -webkit-transition: height .5s, line-height .5s; /* Safari */
-      transition: height .5s, line-height .5s;
-  }
+#global-nav {
+position: fixed;
+top: 0;
+z-index: 9999;
+height: 100px;
+width: 100%; 
+color: #fff; 
+    -webkit-transition: height .5s, line-height .5s; /* Safari */
+    transition: height .5s, line-height .5s;
+}
   
 /*scroll nav end*/
 .red{
@@ -223,7 +223,8 @@ body {
     font-family:'Roboto', sans-serif ;
 }
 .about-btn:hover{
-     background-color:#e03a3c;
+    background-color:#e03a3c;
+    color:#fff
 }
 .voluptatem-left{
     padding: 30px 30px 30px 0;
@@ -613,13 +614,16 @@ body {
     font-weight:400;
     margin-bottom: 5px;
 }
+.social-img ul{
+    padding: 0;
+}
 .social-img ul li {
      margin-right: 5px;
     
 } 
-.social-img ul{
+.social-img {
     position: absolute; 
-    left: 25%;
+    left: 20%;
     bottom: 110px;
     transition: .3s;
     opacity: 0;
@@ -636,7 +640,7 @@ body {
     align-items: center;
     font-size: 18px; 
 }
-.cards:hover .social-img ul{ 
+.cards:hover .social-img { 
     bottom: 100px;
     opacity: 1;
 }
